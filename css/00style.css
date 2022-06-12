@@ -1,0 +1,93 @@
+.body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family:"Courier New", Courier, monospace;
+   
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+
+}
+.container {
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#main-header{
+    background-color: #8FBC8F;
+    color: #f4f4f4;
+    font-family:"Courier New", Courier, monospace;
+    text-align: center;
+   
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar:hover{
+    color: #833ab4;
+
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #fff;
+    position:center;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+
+}
+
+#showcase{
+    background-image: url(../images/pexels-trace-hudson-2529973.jpg);
+    background-position: center right;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin-bottom: 30px;
+
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+.main-footer{
+    background: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+@media (max-width:600px){
+    #main{
+        width: 100%;
+        float:none;
+
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
