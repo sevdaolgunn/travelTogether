@@ -17,6 +17,7 @@
 
 
 
+
 #main-header{
     background-color: #8FBC8F;
     color: #f4f4f4;
@@ -54,15 +55,6 @@
 
 }
 
-#showcase{
-    background-image: url(../images/pexels-trace-hudson-2529973.jpg);
-    background-position: center right;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 1000px;
-    margin-bottom: 30px;
-
-}
 
 #showcase h1{
     color: #fff;
